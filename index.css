@@ -9,12 +9,27 @@ body{
 }
 
 .index{
-    align-items:center ;
-    margin: 0px;
-    padding:25px;
-    padding-top: 28px;
-    padding-bottom: 40px;
+    padding-top: 2.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-div{
+    width: 50%;
+    padding-right: 2%;
+    display: flex;
+}
+
+.index-list{
+    width: 50%;
     padding-right: 4%;
+    margin: 0px;
     border-bottom: #889288;
     display: flex;
     font-size: 14px;
@@ -24,15 +39,15 @@ body{
 }
 
 .index > img{
-    flex: 0%;
-    justify-self: flex-start;
-    align-self: center;
+
+    align-items: center;
+ 
 }
 
-.index > button{
-    padding:0;
+.index-list > button{
+    padding:0 1%;
     margin: 0%;
-    width: 10%;
+    width: 15%;
     max-width: 90px;
     height: 30px;;
     align-self: center;
@@ -41,16 +56,16 @@ body{
     color:#64ffda;
     background-color:#0a192f;
     border-color: #64ffda;
-    
     border-radius :4px;
 }
 
-.index :hover{
+.index-list :hover{
 
     color: #64ffda;
 }
 
 img{
+    margin-left: 40px ;
     flex: 0%;
     max-width: 30px;
     max-height: 30px;
